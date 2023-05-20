@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-backend",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Typescript Eslint config for the backend NodeJS",
   "main": "index.js",
   "repository": {
@@ -15,12 +15,12 @@
     "phatvo"
   ],
   "author": "Phat Vo",
-  "license": "UNLICENSED",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/phatvo21/eslint-config-backend/issues"
   },
   "homepage": "https://github.com/phatvo21/eslint-config-backend#readme",
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "eslint-config-adjunct": "^4.11.1",
