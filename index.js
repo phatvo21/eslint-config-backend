@@ -105,14 +105,18 @@ module.exports = {
         'unicorn/no-array-method-this-argument': 0,
         'unicorn/no-object-as-default-parameter': 0,
         'unicorn/switch-case-braces': 0,
-        'pii/no-phone-number': 'off',
         'sonarjs/no-duplicate-string': 'off',
-        'pii/no-ip': 'off',
         'no-await-in-loop': 'off',
         'no-restricted-syntax': 'off',
         'unicorn/consistent-destructuring': 'off',
         'lodash/prefer-noop': 'off',
         'no-plusplus': 'off',
+        'unicorn/import-style': 0,
+
+        'pii/no-phone-number': 'off',
+        "pii/no-email": "off",
+        "pii/no-dob": "off",
+        'pii/no-ip': 'off',
 
         'eslint-comments/disable-enable-pair': ['error', { allowWholeFile: true }],
 
